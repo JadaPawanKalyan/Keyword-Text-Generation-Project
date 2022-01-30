@@ -6,7 +6,7 @@ So in order to create keywords, we can manually go through each paper and write 
 
 Now, we have the text and the important keywords that explain the text. So I used the GPT-2 model for generating new text. I encoded those keywords into a single entity using a special token used by GPT model called <sep>. After encoding the keywords, I created a new token called <seperator> in the GPT model and made the text and keyword entity into a single chunk. Then, I trained the model like a generative task.
   
-Output of the model:
+# Output of the model
   
 Keywords:  COVID-19, SARS-CoV-2, cardiac magnetic resonance, chest x-ray, computed tomography
 
