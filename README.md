@@ -7,6 +7,7 @@ So in order to create keywords, we can manually go through each paper and write 
 Now, we have the text and the important keywords that explain the text. So I used the GPT-2 model for generating new text. I encoded those keywords into a single entity using a special token used by GPT model called <sep>. After encoding the keywords, I created a new token called <seperator> in the GPT model and made the text and keyword entity into a single chunk. Then, I trained the model like a generative task.
   
 Output of the model:
+  
 Keywords:  COVID-19, SARS-CoV-2, cardiac magnetic resonance, chest x-ray, computed tomography
 
 Text Generated: the severe acute respiratory syndrome-coronavirus-2 outbreak has rapidly reached pandemic proportions and has become a major threat to global health. chest x-ray (cxr) and computed tomography (ct) have been widely used in the diagnosis of covid-19. chest cxr and ct have been widely used in the diagnosis of sars-cov-2 infection, but there is a lack of consensus regarding the clinical utility of cxr and ct in the diagnosis of covid-19. the purpose of this study was to evaluate the clinical utility of chest cxr and ct in the diagnosis of covid-19.
